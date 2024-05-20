@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Touqa</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="street_names">
+        <item>اختر اسم الشارع</item>
+        <item>شارع حراء</item>
+        <item>شارع قريش</item>
+        <item>شارع صاري</item>
+        <item>شارع الامير سعود الفيصل (الروضة سابقا)</item>
+        <item>طريق الأمير محمد بن عبد العزيز (التحلية سابقا)</item>
+        <item>شارع فلسطين</item>
+        <item>طريق الملك عبد الله (ولي العهد سابقا)</item>
+        <item>طريق مكة القديم</item>
+    </string-array>
+
+
+</resources>

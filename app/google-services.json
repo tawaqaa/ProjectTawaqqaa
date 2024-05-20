@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "950250388581",
+    "project_id": "touqaapp",
+    "storage_bucket": "touqaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950250388581:android:0f4811369ea9be2d6d9a8c",
+        "android_client_info": {
+          "package_name": "com.touqa.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABU_K-sTMvG8TAl6I2Q3luyGovGER5Maw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

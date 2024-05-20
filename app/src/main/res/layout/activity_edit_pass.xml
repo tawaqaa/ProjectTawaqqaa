@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:scrollbarSize="0.0dp"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="تغير كلمة المرور" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="55dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="كلمة المرور القديمة"
+                />
+            <EditText
+                android:id="@+id/old_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:background="@drawable/corner_four"
+                android:hint="ادخل كلمة المرور القديمة" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="كلمة المرور الجديدة"
+                />
+            <EditText
+                android:id="@+id/new_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="16dp"
+                android:background="@drawable/corner_four"
+                android:hint="ادخل كلمة المرور الجديدة" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="كرر كلمة المرور الجديدة"
+                />
+            <EditText
+                android:id="@+id/re_enter_Pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="16dp"
+                android:background="@drawable/corner_four"
+                android:hint="كرر إدخال كلمة المرور الجديدة" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_four"
+                android:backgroundTint="@color/color_button"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp"
+                android:text="حفظ" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
